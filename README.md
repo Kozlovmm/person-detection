@@ -34,15 +34,15 @@
 - Потенциальные сложности: окклюзии, очень маленькие/далёкие люди, смазанные
   кадры, быстрые движения, фото людей/другие объекты.
 - Как улучшать:
-  1. Использовать более мощную модель
-  2. Добавить трекинг для стабильных ID
-  3. Дообучить на похожих данных
-  4. Настроить постобработку (порог/площадь бокса, сглаживание координат)
-  5. Фильтровать слишком маленькие боксы и резкие скачки размера
-  6. Убирать вспышки: удалять объекты, появляющиеся на 1 кадре
-  7. Использовать разные пороги для разных зон изображения
-  8. Прогонять с разными масштабами/порогами уверенности и объединять результаты
-  9. Добавить предварительную обработку кадров (контраст, шумоподавление)
+  - Использовать более мощную модель
+  - Добавить трекинг для стабильных ID
+  - Дообучить на похожих данных
+  - Настроить постобработку (порог/площадь бокса, сглаживание координат)
+  - Фильтровать слишком маленькие боксы и резкие скачки размера
+  - Убирать вспышки: удалять объекты, появляющиеся на 1 кадре
+  - Использовать разные пороги для разных зон изображения
+  - Прогонять с разными масштабами/порогами уверенности и объединять результаты
+  - Добавить предварительную обработку кадров (контраст, шумоподавление)
 
 
 # Detecting people in a crowd
@@ -81,12 +81,12 @@ python -m src.main
 ## Improvements
 - Issues: occlusions, very small/far people, blur, fast motion, photos/posters.
 - Improve by:
-  1. Larger model
-  2. Add tracking for stable IDs
-  3. Fine-tune on similar data
-  4. Tune post-processing (threshold/box area, smoothing)
-  5. Filter tiny boxes and sudden size jumps
-  6. Drop one-frame flickers
-  7. Different thresholds per image zone
-  8. Multi-scale/threshold runs with fusion
-  9. Preprocess frames (contrast, denoise)
+  - Larger model
+  - Add tracking for stable IDs
+  - Fine-tune on similar data
+  - Tune post-processing (threshold/box area, smoothing)
+  - Filter tiny boxes and sudden size jumps
+  - Drop one-frame flickers
+  - Different thresholds per image zone
+  - Multi-scale/threshold runs with fusion
+  - Preprocess frames (contrast, denoise)
