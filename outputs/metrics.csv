@@ -1,0 +1,2 @@
+input_path,output_path,frames,total_detections,avg_detections_per_frame,processing_fps,duration_seconds,model,conf,imgsz,device
+assets/crowd.mp4,outputs/crowd.mp4,705,41375,58.69,12.41,56.81,yolov8n.pt,0.1,"(1088, 1920)",mps

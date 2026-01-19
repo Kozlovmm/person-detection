@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+outputs/*.mp4
+assets/*.mp4

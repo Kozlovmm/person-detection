@@ -1,0 +1,18 @@
+[
+  {
+    "input_path": "assets/crowd.mp4",
+    "output_path": "outputs/crowd.mp4",
+    "frames": 705,
+    "total_detections": 41375,
+    "avg_detections_per_frame": 58.69,
+    "processing_fps": 12.41,
+    "duration_seconds": 56.81,
+    "model": "yolov8n.pt",
+    "conf": 0.1,
+    "imgsz": [
+      1088,
+      1920
+    ],
+    "device": "mps"
+  }
+]
